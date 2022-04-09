@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+h1, h2 {
+  margin: 40px 0 20px 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+}
+
+.content {
+  padding: 20px;
+}
