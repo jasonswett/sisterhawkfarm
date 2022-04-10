@@ -1,14 +1,35 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #FFF;
+  background-color: #EEF;
   font-family: Georgia;
   font-size: 18px;
 }
 
+img {
+  margin-bottom: 40px;
+}
+
 h1, h2 {
-  margin: 40px 0 20px 0;
   padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 60px 0 15px 0;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 40px 0 20px 0;
+  color: #8C8CFE;
+}
+
+h2.main-subheading {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 p {
@@ -18,5 +39,32 @@ p {
 }
 
 .content {
-  padding: 20px;
+  width: 540px;
+  background-color: #FFF;
+  margin: 0 auto;
+  padding: 20px 80px;
+  border-left: 1px solid #8C8CFE;
+  border-right: 1px solid #8C8CFE;
+}
+
+.top-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #888;
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 20px;
+}
+
+footer {
+  border-top: 2px solid #CCC;
+  margin-top: 60px;
+  padding: 40px 0 30px 0;
+  color: #888;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+a, a:visited {
+  color: #8C8CFE;
 }
