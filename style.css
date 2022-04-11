@@ -27,6 +27,11 @@ h2.main-subheading {
   margin-bottom: 40px;
 }
 
+.niki-and-gus {
+  width: 100%;
+  object-fit: contain;
+}
+
 p {
   margin: 0 0 20px 0;
   padding: 0;
@@ -37,20 +42,11 @@ p {
   max-width: 540px;
   background-color: #FFF;
   margin: 0 auto;
-  padding: 20px 100px;
+  padding: 20px 40px;
   border-left: 1px solid #8C8CFE;
   border-right: 1px solid #8C8CFE;
 }
-
-.top-contact {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  color: #888;
-  border-bottom: 2px solid #CCC;
-  padding-bottom: 20px;
-  display: none;
-}
+  //padding: 20px 100px;
 
 footer {
   border-top: 2px solid #CCC;
