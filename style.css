@@ -46,7 +46,13 @@ p {
   border-left: 1px solid #8C8CFE;
   border-right: 1px solid #8C8CFE;
 }
-  //padding: 20px 100px;
+
+@media (min-width: 800px) {
+  .content {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
 
 footer {
   border-top: 2px solid #CCC;
